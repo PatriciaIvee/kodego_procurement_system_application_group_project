@@ -6,10 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import ph.kodego.victor.yu.leones.patricia.ivee.procurementsystemapplication.R
-import ph.kodego.victor.yu.leones.patricia.ivee.procurementsystemapplication.databinding.FragmentLoginBinding
+import ph.kodego.victor.yu.leones.patricia.ivee.procurementsystemapplication.databinding.FragmentAddPictureBinding
+import ph.kodego.victor.yu.leones.patricia.ivee.procurementsystemapplication.databinding.FragmentSignUpBinding
 
-class LoginFragment : Fragment() {
-    private var _binding: FragmentLoginBinding? = null
+class AddPictureFragment : Fragment() {
+    private var _binding: FragmentAddPictureBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,7 @@ class LoginFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentLoginBinding.inflate(inflater,container,false)
+        _binding = FragmentAddPictureBinding.inflate(inflater,container,false)
         return binding.root
     }
 
