@@ -24,6 +24,81 @@
             android:layout_marginTop="36dp"
             android:layout_marginHorizontal="24dp"/>
 
+            <!-- Horizontal Quick Access -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/quick_access_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/greeting_text_view"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"/>
+
+            <!--  Inventory Level Chart       -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/inventory_level_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/quick_access_recycler_view"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/stocks_gantt_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/inventory_level_cardview"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/teal_700">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/inventory_cost_and_age_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/stocks_gantt_cardview"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/purple_200">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/purchase_order_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/inventory_cost_and_age_cardview"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/teal_700">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sales_order_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/purchase_order_cardview"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="36dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/purple_200">
+
+        </androidx.cardview.widget.CardView>
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

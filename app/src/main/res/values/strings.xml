@@ -30,4 +30,8 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home_dashboard">Home/Dashboard</string>
+    <string name="inventory_monitoring">Inventory Monitoring</string>
+    <string name="incoming_inventory_tracker">Incoming Inventory Tracker</string>
+    <string name="email_address_sample">juandelacruz@mail.com</string>
 </resources>
