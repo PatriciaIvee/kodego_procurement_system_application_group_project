@@ -34,4 +34,14 @@
     <string name="inventory_monitoring">Inventory Monitoring</string>
     <string name="incoming_inventory_tracker">Incoming Inventory Tracker</string>
     <string name="email_address_sample">juandelacruz@mail.com</string>
+    <string name="inventory_statistics">Inventory Statistics</string>
+    <string name="purchase_orders">Purchase Orders</string>
+    <string name="sales_orders">Sales Orders</string>
+    <string name="bill_of_materials">Bill Of Materials</string>
+    <string name="log_out">Log Out</string>
+    <string name="inventory_stock">Inventory Stock</string>
+    <string name="product_name">Product Name</string>
+    <string name="description_details">Description / Details</string>
+    <string name="quantity">Quantity</string>
+    <string name="date">Date</string>
 </resources>

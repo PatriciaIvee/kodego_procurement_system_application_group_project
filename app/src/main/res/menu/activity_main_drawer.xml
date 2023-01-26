@@ -13,5 +13,22 @@
         <item
             android:id="@+id/nav_incoming_inventory_tracker"
             android:title="@string/incoming_inventory_tracker" />
+        <item
+            android:id="@+id/nav_inventory_statistics"
+            android:title="@string/inventory_statistics" />
+        <item
+            android:id="@+id/nav_purchase_orders"
+            android:title="@string/purchase_orders" />
+        <item
+            android:id="@+id/nav_sales_orders"
+            android:title="@string/sales_orders" />
+        <item
+            android:id="@+id/nav_bill_of_materials"
+            android:title="@string/incoming_inventory_tracker" />
+
     </group>
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:title="@string/log_out" />
 </menu>
